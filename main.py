@@ -6,7 +6,7 @@ class Account :
     name = ''
     deposit=0
     type = ''
-    
+       
     def createAccount(self):
         self.accNo= int(input("Enter the account no : "))
         self.name = input("Enter the account holder name : ")
