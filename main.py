@@ -9,7 +9,7 @@ class Account :
        
     def createAccount(self):
         self.accNo= int(input("Enter the account no : "))
-        self.name = input("Enter the account holder name : ")
+        self.name = input("Enter the account holder name : ")  
         self.type = input("Ente the type of account [C/S] : ")
         self.deposit = int(input("Enter The Initial amount(>=500 for Saving and >=1000 for current"))
         print("\n\n\nAccount Created")
